@@ -1,0 +1,16 @@
+.DS_Store
+thumbs.db
+~$*
+*~
+*.swp
+/.idea/
+``/build/
+/out/
+*.iml
+.gradle/
+.\#*
+\#*\#
+/idp.properties
+/idp-signing.p12
+/idp-signing.crt
+/.env

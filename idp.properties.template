@@ -1,0 +1,5 @@
+issuer=https://acme.example.com/saml2/identity-provider
+audienceRestriction=https://www.okta.com/saml2/service-provider/YOU_HAVE_TO_REPLACE_THIS
+destinationUrl=https://acme.oktapreview.com/sso/saml2/YOU_HAVE_TO_REPLACE_THIS
+signingKeystore=/idp-signing.p12
+signingKeystorePassword=changeit
