@@ -1,6 +1,16 @@
 # opensaml-idp-example
 Example SAML 2.0 IdP written on OpenSAML to test an Okta ACS crash.
 
+Fixed as of Okta 2018.11 in Okta Preview. Good work, Okta Engineering!
+
+## Thanks
+* [WhiteFang34](https://stackoverflow.com/users/653230/whitefang34):
+  [How to create a valid SAML 2.0 Assertion with OpenSAML library in Java](
+  https://stackoverflow.com/a/34579802/154527)
+* [Prateek](https://stackoverflow.com/users/2929562/prateek):
+  [XML Document to String](https://stackoverflow.com/a/5456836/154527)
+* @chris-whittick-vgh for refactoring examples to work with OpenSAML 3.x 
+
 ## Motivation
 It was built to send arbitrary attributes to an ACS in order to
 identify which attributes cause problems.
