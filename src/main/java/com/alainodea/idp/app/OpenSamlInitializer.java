@@ -10,7 +10,7 @@ final class OpenSamlInitializer {
             new JavaCryptoValidationInitializer().init();
             InitializationService.initialize();
         } catch (InitializationException e) {
-            throw new IllegalStateException("Could no initialize OpenSAML", e);
+            throw new IllegalStateException("Could not initialize OpenSAML", e);
         }
     }
 }
